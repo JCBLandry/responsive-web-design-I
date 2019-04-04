@@ -243,20 +243,20 @@ h1{
 }
 .container{
     margin: 0 auto;
-    width: 500px;
+    width: 800px;
 }
 .menu{
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    justify-content: space-around;
     margin: 0 auto;
+    border-top: 1px solid grey;
 
 
     }
 .GS{
         margin: 0 auto;
         margin-bottom: 20px;
-        margin-top: 20px;
+        margin-top: 30px;
         padding: 7px 45px;
         
     }
@@ -264,7 +264,7 @@ h1{
         display: none;
     }
 .para1{
-        display: block;
+        display: flex;
         border-top: 2px solid black;
         margin-top: 55px;
         padding-top: 40px;
@@ -273,20 +273,16 @@ h1{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding: 20px 30px;
+        padding: 30px 30px;
     }
 .gidea{
         display: none;
+    
     }
 .button{
-        border-top: 1px solid grey;
-        padding: 20px 500px;
+        padding: 10px;
         font-weight: bold;
-        font-size: 20px;
-        align-self: center;
-    }
-.lilextrabutton{
-        border-bottom: 1px solid grey;
+
     }
     p{
         margin: 0px 0px 30px 0px;
