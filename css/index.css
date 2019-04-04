@@ -298,7 +298,7 @@ h1{
         margin: 20px 0px;
     }
     .para2{
-        display: block;
+        display: flex;
         margin-top: 10px;
                }
     .contact{
@@ -307,7 +307,7 @@ h1{
         margin: 10px 0;
                }
 }
-}
+
 
 @media(max-width: 500px){
     .roundimg{
